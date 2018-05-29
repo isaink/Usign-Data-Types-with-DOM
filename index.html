@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1>Hello my name is</h1>
+		<h1 id="welcomeText"></h1>
+
+	
+		<script>
+			console.log("This is a message from internal");
+			
+			var user = prompt("Enter your Name");
+			document.getElementById("welcomeText").innerHTML = user;
+
+			console.log(user);
+			console.log("your name is " + user.length + " character long");
+
+			var h1 = document.getElementById('welcomeText');
+			h1.innerHTML = user + "!!!";
+
+			
+
+		</script>
+	</body>
+	</html>
